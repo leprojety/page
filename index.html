@@ -3,161 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Research Hub</title>
+    <meta name="description" content="A minimalistic personal website template inspired by Fabien Sanglard's site.">
+    <title>My Minimalist Website</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: "Arial", sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background: #f4f4f9;
+            background-color: #fdfdfd;
             color: #333;
         }
+
         header {
-            background: linear-gradient(90deg, #0055ff, #00aaff);
-            color: white;
-            padding: 20px 10%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            background-color: #f4f4f4;
+            padding: 1em 0;
+            border-bottom: 1px solid #ddd;
         }
+
         header h1 {
+            text-align: center;
             margin: 0;
+            font-size: 1.8em;
         }
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            gap: 15px;
+
+        nav {
+            text-align: center;
+            margin-top: 0.5em;
         }
-        nav ul li {
-            display: inline;
-        }
-        nav ul li a {
+
+        nav a {
             text-decoration: none;
-            color: white;
-            font-weight: bold;
+            color: #0077cc;
+            margin: 0 10px;
         }
-        section {
-            padding: 40px 10%;
+
+        nav a:hover {
+            text-decoration: underline;
         }
-        .hero {
-            text-align: center;
-            padding: 60px 0;
-            background: #0055ff;
-            color: white;
+
+        main {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 0 1em;
         }
-        .hero h2 {
-            margin: 0;
-            font-size: 2.5em;
+
+        article {
+            margin-bottom: 2em;
         }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
+
+        article h2 {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+            color: #222;
         }
-        .card {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            text-align: center;
+
+        article p {
+            margin: 0.5em 0;
         }
-        .card h3 {
-            margin-top: 10px;
-        }
-        .seminar {
-            background: #eef6ff;
-            padding: 20px;
-            border-radius: 8px;
-        }
+
         footer {
-            background: #222;
-            color: white;
-            padding: 20px 10%;
             text-align: center;
+            padding: 1em 0;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            background-color: #f4f4f4;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #0077cc;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>My Minimalist Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
-<header>
-    <h1>AI Research Hub</h1>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#research">Research</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#seminars">Seminars</a></li>
-            <li><a href="#careers">Careers</a></li>
-        </ul>
-    </nav>
-</header>
+    <main>
+        <article>
+            <h2>Welcome to My Website</h2>
+            <p>This is a simple, clean, and minimalistic website template inspired by Fabien Sanglard's design.</p>
+            <p>Use this space to share your projects, thoughts, and ideas with the world.</p>
+        </article>
 
-<section class="hero">
-    <h2>Advancing AI and Intelligence Research</h2>
-    <p>Bridging science and technology to serve humanity.</p>
-</section>
+        <article>
+            <h2>Another Blog Post</h2>
+            <p>Here's an example of a blog post. Keep your content engaging and concise for your readers.</p>
+        </article>
+    </main>
 
-<section id="about">
-    <h2>About Us</h2>
-    <p>We are a global research lab focused on advancing artificial intelligence and understanding the principles of intelligence. Our interdisciplinary team combines expertise from AI, biology, neuroscience, and philosophy to push the boundaries of knowledge.</p>
-</section>
-
-<section id="research">
-    <h2>Research</h2>
-    <div class="grid">
-        <div class="card">
-            <h3>AI and Evolution</h3>
-            <p>Exploring evolutionary algorithms for open-ended intelligence.</p>
-        </div>
-        <div class="card">
-            <h3>NeuroAI</h3>
-            <p>Understanding intelligence by merging neuroscience and machine learning.</p>
-        </div>
-        <div class="card">
-            <h3>Generative Systems</h3>
-            <p>Building systems that create art, design, and solutions autonomously.</p>
-        </div>
-    </div>
-</section>
-
-<section id="team">
-    <h2>Our Team</h2>
-    <div class="grid">
-        <div class="card">
-            <h3>Dr. Jane Smith</h3>
-            <p>Lead Researcher, specializing in AI ethics and governance.</p>
-        </div>
-        <div class="card">
-            <h3>Dr. Alan Turing</h3>
-            <p>Pioneer in computational theory and machine learning.</p>
-        </div>
-        <div class="card">
-            <h3>Prof. Ada Lovelace</h3>
-            <p>Expert in mathematical modeling and generative AI systems.</p>
-        </div>
-    </div>
-</section>
-
-<section id="seminars" class="seminar">
-    <h2>Upcoming Seminars</h2>
-    <p>Join our monthly seminars where experts share the latest in AI research.</p>
-    <ul>
-        <li><strong>January 15:</strong> "NeuroAI and the Future of Cognitive Computing"</li>
-        <li><strong>February 10:</strong> "Open-ended Evolution in Artificial Life"</li>
-        <li><strong>March 20:</strong> "AI Ethics: Challenges and Opportunities"</li>
-    </ul>
-</section>
-
-<section id="careers">
-    <h2>Careers</h2>
-    <p>We are always looking for passionate individuals to join our team. Explore opportunities in research, operations, and internships.</p>
-</section>
-
-<footer>
-    <p>&copy; 2024 AI Research Hub. All rights reserved.</p>
-</footer>
-
+    <footer>
+        <p>&copy; 2024 My Minimalist Website. Made with simplicity in mind. <a href="#">Privacy Policy</a></p>
+    </footer>
 </body>
 </html>
