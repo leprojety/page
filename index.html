@@ -1,125 +1,106 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <meta name="description" content="A minimalist personal website for showcasing projects, articles, and more.">
+    <title>My Minimalist Website</title>
     <style>
-        /* Styles de base */
         body {
-            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #20232a;
-            color: #ffffff;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
+            background-color: #f4f4f4; /* Unified background color */
+            color: #333;
         }
 
         header {
-            background-color: #20232a;
-            color: #61dafb;
+            background-color: #333;
+            color: #fff;
             padding: 20px;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
         }
 
         nav {
-            margin-top: 10px;
+            margin: 20px 0;
+            text-align: center;
         }
 
         nav a {
-            color: #61dafb;
+            color: #0077cc;
             text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.1em;
-            transition: color 0.3s;
+            margin: 0 10px;
+            font-weight: bold;
         }
 
         nav a:hover {
-            color: #ffffff;
+            text-decoration: underline;
         }
 
         main {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #333;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        main h2 {
-            color: #61dafb;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         footer {
             text-align: center;
             padding: 10px 0;
-            background-color: #20232a;
-            color: #61dafb;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            background-color: #333;
+            color: #fff;
         }
 
-        /* Animation et mise en valeur */
-        .highlight {
-            color: #ff5722;
+        footer a {
+            color: #0077cc;
+            text-decoration: none;
         }
 
-        .animated-link {
-            position: relative;
-            display: inline-block;
+        footer a:hover {
+            text-decoration: underline;
         }
-
-        .animated-link::after {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            background-color: #61dafb;
-            left: 0;
-            bottom: -2px;
-            transform: scaleX(0);
-            transform-origin: right;
-            transition: transform 0.3s ease;
-        }
-
-        .animated-link:hover::after {
-            transform: scaleX(1);
-            transform-origin: left;
-        }
-
     </style>
 </head>
 <body>
     <header>
-        <h1>Mon Journal de Bord</h1>
-        <nav>
-            <a href="#" class="animated-link">Accueil</a>
-            <a href="#" class="animated-link">Projets</a>
-            <a href="#" class="animated-link">À propos</a>
-            <a href="#" class="animated-link">Contact</a>
-        </nav>
+        <h1>Welcome to My Minimalist Website</h1>
+        <p>A place to share projects, ideas, and writings.</p>
     </header>
+
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#articles">Articles</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
     <main>
-        <h2 class="highlight">Bienvenue sur mon site</h2>
-        <p>Voici un espace où je partage mes projets, réflexions, et découvertes. Inspiré par un design minimaliste et une touche de modernité.</p>
-        <h3>Articles récents</h3>
-        <ul>
-            <li><a href="#" class="animated-link">Article 1 : Exploration des systèmes</a></li>
-            <li><a href="#" class="animated-link">Article 2 : Design et architecture de code</a></li>
-            <li><a href="#" class="animated-link">Article 3 : Performance et optimisation</a></li>
-        </ul>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Details about your projects go here. Each project can have a short description and a link to its repository or demo.</p>
+        </section>
+
+        <section id="articles">
+            <h2>Articles</h2>
+            <p>Share your thoughts and ideas through blog posts or technical articles. Provide links or summaries for easy access.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>A brief introduction about yourself, your expertise, and your interests.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can include your email or a contact form for visitors to reach you.</p>
+        </section>
     </main>
+
     <footer>
-        &copy; 2024 - Créé avec ❤️ par Moi.
+        <p>&copy; 2024 My Minimalist Website | <a href="#">Privacy Policy</a></p>
     </footer>
 </body>
 </html>
