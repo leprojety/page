@@ -3,159 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A minimalistic personal website template inspired by Fabien Sanglard's site.">
-    <title>My Minimalist Website</title>
+    <title>Madame Butterfly: An Homage</title>
     <style>
         body {
-            font-family: "Yu Mincho", "Hiragino Mincho Pro", serif;
-            line-height: 1.8;
             margin: 0;
-            padding: 0;
-            background-color: #fafafa;
-            color: #333;
+            font-family: "Times New Roman", serif;
+            background-color: #f8f1e4;
+            color: #2c2c2c;
+            line-height: 1.6;
         }
-
         header {
-            background-color: #f4f4f4;
-            padding: 20px 10px;
-            border-bottom: 2px solid #ccc;
-        }
-
-        header h1 {
+            background: linear-gradient(135deg, #ff9a8b, #fecfef);
+            padding: 20px;
             text-align: center;
-            margin: 0;
+            color: white;
             font-size: 2.5em;
-            color: #222;
+            font-style: italic;
         }
-
         nav {
-            text-align: center;
-            margin: 15px 0 0;
+            background-color: #5a5a5a;
+            padding: 10px;
         }
-
         nav a {
+            color: white;
             text-decoration: none;
-            color: #555;
             margin: 0 15px;
             font-weight: bold;
         }
-
         nav a:hover {
-            color: #000;
+            text-decoration: underline;
         }
-
         main {
-            max-width: 700px;
-            margin: 30px auto;
-            padding: 0 15px;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-
-        article {
-            margin-bottom: 40px;
+        h1, h2, h3 {
+            color: #ba4a55;
         }
-
-        article h2 {
-            font-size: 2em;
-            margin-bottom: 10px;
-            color: #111;
-        }
-
-        article p {
-            margin: 10px 0;
-        }
-
-        pre {
-            background-color: #f8f8f8;
-            padding: 10px;
-            border: 1px solid #ddd;
-            overflow-x: auto;
-            font-size: 0.9em;
-        }
-
         footer {
             text-align: center;
-            padding: 20px 10px;
-            border-top: 2px solid #ccc;
-            font-size: 0.9em;
-            background-color: #f4f4f4;
-        }
-
-        footer a {
-            text-decoration: none;
-            color: #555;
-            font-weight: bold;
-        }
-
-        footer a:hover {
-            color: #000;
-        }
-
-        .japanese-accent {
-            text-align: center;
-            margin-top: 30px;
-            padding: 20px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .japanese-accent h2 {
-            font-size: 1.8em;
-            color: #222;
-            margin-bottom: 10px;
-        }
-
-        .japanese-accent p {
-            font-size: 1.1em;
-            color: #555;
-        }
-
-        .japanese-accent::before {
-            content: "\2606"; /* Star symbol */
-            font-size: 2em;
-            color: #777;
-            display: block;
-            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #5a5a5a;
+            color: white;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>My Minimalist Website</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Projects</a>
-            <a href="#">Blog</a>
-            <a href="#">About</a>
-        </nav>
+        Madame Butterfly: An Homage
     </header>
-
+    <nav>
+        <a href="#story">Story</a>
+        <a href="#composer">Composer</a>
+        <a href="#legacy">Legacy</a>
+        <a href="#contact">Contact</a>
+    </nav>
     <main>
-        <article>
-            <h2>Welcome to My Minimalist Website</h2>
-            <p>Welcome to a clean and simple site design inspired by Fabien Sanglard's work. This is a space for sharing knowledge, projects, and ideas.</p>
-        </article>
-
-        <article>
-            <h2>Latest Blog Post</h2>
-            <p>Stay tuned for updates on my latest projects and tutorials. Below is a sample of how code can be showcased:</p>
-            <pre><code>// Example of a simple JavaScript function
-function greet(name) {
-    return `Hello, ${name}!`;
-}
-
-console.log(greet("World"));</code></pre>
-        </article>
-
-        <section class="japanese-accent">
-            <h2>日本の美学</h2>
-            <p>このデザインは、日本のミニマリズムと調和の美しさからインスピレーションを得ています。</p>
+        <section id="story">
+            <h1>The Story</h1>
+            <p>Madame Butterfly tells the poignant tale of love and betrayal, set in the beautiful landscapes of Nagasaki, Japan. The story revolves around Cio-Cio-San, a young geisha who marries an American naval officer, only to face heartbreak and tragedy.</p>
+        </section>
+        <section id="composer">
+            <h2>About Giacomo Puccini</h2>
+            <p>Puccini, one of the greatest opera composers, brought his genius to Madame Butterfly with a rich score that captures the essence of its characters and setting.</p>
+        </section>
+        <section id="legacy">
+            <h2>The Legacy</h2>
+            <p>Madame Butterfly has captivated audiences worldwide with its emotional depth and exquisite music. It remains a cornerstone of the operatic repertoire.</p>
+        </section>
+        <section id="contact">
+            <h3>Contact</h3>
+            <p>If you would like to learn more about this project, feel free to reach out at <a href="mailto:info@madamebutterfly.com">info@madamebutterfly.com</a>.</p>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2024 My Minimalist Website. Designed for simplicity. <a href="#">Contact Me</a></p>
+        &copy; 2024 Madame Butterfly Project. All Rights Reserved.
     </footer>
 </body>
 </html>
