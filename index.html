@@ -3,159 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Source Phylogenetics</title>
+    <title>AI Research Hub</title>
     <style>
         body {
+            font-family: 'Arial', sans-serif;
             margin: 0;
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background: #f9f9f9;
+            padding: 0;
+            background: #f4f4f9;
             color: #333;
-            line-height: 1.6;
         }
-
         header {
-            background: #004d40;
-            color: #ffffff;
-            text-align: center;
-            padding: 1.5rem 0;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            margin: 0;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            margin: 0.5rem 0 0;
-            font-style: italic;
-        }
-
-        nav {
+            background: linear-gradient(90deg, #0055ff, #00aaff);
+            color: white;
+            padding: 20px 10%;
             display: flex;
-            justify-content: center;
-            background: #00796b;
-            padding: 0.75rem 0;
+            justify-content: space-between;
+            align-items: center;
         }
-
-        nav a {
-            color: #ffffff;
-            text-decoration: none;
-            margin: 0 1.5rem;
-            font-size: 1rem;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .content {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 2rem;
-            background: #ffffff;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-
-        .content h2 {
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-            color: #004d40;
-        }
-
-        .content p {
-            margin-bottom: 1rem;
-        }
-
-        .content ul {
-            list-style-type: square;
-            padding-left: 1.5rem;
-        }
-
-        footer {
-            background: #004d40;
-            color: #ffffff;
-            text-align: center;
-            padding: 1rem 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        footer p {
+        header h1 {
             margin: 0;
-            font-size: 0.9rem;
         }
-
-        .code-block {
-            background: #f4f4f4;
-            padding: 1rem;
-            border-left: 4px solid #00796b;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 0.95rem;
-            margin: 1.5rem 0;
-            border-radius: 5px;
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 10%;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+            background: #0055ff;
+            color: white;
+        }
+        .hero h2 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .card h3 {
+            margin-top: 10px;
+        }
+        .seminar {
+            background: #eef6ff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px 10%;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Open Source Phylogenetics</h1>
-        <p>Exploring Evolutionary Trees through Collaboration and Mathematics</p>
-    </header>
 
+<header>
+    <h1>AI Research Hub</h1>
     <nav>
-        <a href="#about">About</a>
-        <a href="#math">Mathematics</a>
-        <a href="#open-source">Open Source</a>
-        <a href="#contact">Contact</a>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#seminars">Seminars</a></li>
+            <li><a href="#careers">Careers</a></li>
+        </ul>
     </nav>
+</header>
 
-    <main class="content">
-        <section id="about">
-            <h2>About Phylogenetics</h2>
-            <p>Phylogenetics is the study of evolutionary relationships among biological species based on shared ancestry. Using computational tools and mathematical models, researchers can reconstruct phylogenetic trees to trace the evolutionary history of life.</p>
-        </section>
+<section class="hero">
+    <h2>Advancing AI and Intelligence Research</h2>
+    <p>Bridging science and technology to serve humanity.</p>
+</section>
 
-        <section id="math">
-            <h2>The Mathematics Behind Phylogenetics</h2>
-            <p>Phylogenetics heavily relies on mathematical concepts such as graph theory, probability, and algorithms. Key mathematical methods include:</p>
-            <ul>
-                <li>Maximum Likelihood Estimation</li>
-                <li>Bayesian Inference</li>
-                <li>Parsimony Analysis</li>
-            </ul>
-            <p>For example, consider a simple distance matrix used to calculate relationships:</p>
-            <div class="code-block">
-                A   B   C   D  
-                <br>  A  0   5   9  10 
-                <br>  B  5   0  10   7 
-                <br>  C  9  10   0   8 
-                <br>  D 10   7   8   0 
-            </div>
-        </section>
+<section id="about">
+    <h2>About Us</h2>
+    <p>We are a global research lab focused on advancing artificial intelligence and understanding the principles of intelligence. Our interdisciplinary team combines expertise from AI, biology, neuroscience, and philosophy to push the boundaries of knowledge.</p>
+</section>
 
-        <section id="open-source">
-            <h2>Open Source Philosophy</h2>
-            <p>The open source community has greatly advanced phylogenetics by developing tools like:</p>
-            <ul>
-                <li><a href="https://github.com" target="_blank">GitHub Projects</a></li>
-                <li>MEGA (Molecular Evolutionary Genetics Analysis)</li>
-                <li>BioPython for computational biology</li>
-            </ul>
-            <p>These tools encourage collaboration and innovation in the scientific community.</p>
-        </section>
+<section id="research">
+    <h2>Research</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>AI and Evolution</h3>
+            <p>Exploring evolutionary algorithms for open-ended intelligence.</p>
+        </div>
+        <div class="card">
+            <h3>NeuroAI</h3>
+            <p>Understanding intelligence by merging neuroscience and machine learning.</p>
+        </div>
+        <div class="card">
+            <h3>Generative Systems</h3>
+            <p>Building systems that create art, design, and solutions autonomously.</p>
+        </div>
+    </div>
+</section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>If you're interested in contributing to open source phylogenetics or learning more, feel free to reach out!</p>
-        </section>
-    </main>
+<section id="team">
+    <h2>Our Team</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Dr. Jane Smith</h3>
+            <p>Lead Researcher, specializing in AI ethics and governance.</p>
+        </div>
+        <div class="card">
+            <h3>Dr. Alan Turing</h3>
+            <p>Pioneer in computational theory and machine learning.</p>
+        </div>
+        <div class="card">
+            <h3>Prof. Ada Lovelace</h3>
+            <p>Expert in mathematical modeling and generative AI systems.</p>
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p>&copy; 2024 Open Source Phylogenetics. Made with Collaboration.</p>
-    </footer>
+<section id="seminars" class="seminar">
+    <h2>Upcoming Seminars</h2>
+    <p>Join our monthly seminars where experts share the latest in AI research.</p>
+    <ul>
+        <li><strong>January 15:</strong> "NeuroAI and the Future of Cognitive Computing"</li>
+        <li><strong>February 10:</strong> "Open-ended Evolution in Artificial Life"</li>
+        <li><strong>March 20:</strong> "AI Ethics: Challenges and Opportunities"</li>
+    </ul>
+</section>
+
+<section id="careers">
+    <h2>Careers</h2>
+    <p>We are always looking for passionate individuals to join our team. Explore opportunities in research, operations, and internships.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 AI Research Hub. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
-
