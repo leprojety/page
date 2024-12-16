@@ -3,40 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI-Style Minimalist Page</title>
+    <title>Open Source Phylogenetics</title>
     <style>
         body {
             margin: 0;
-            font-family: 'Arial', sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: #f9f9f9;
             color: #333;
-            background: #f4f4f9;
             line-height: 1.6;
         }
 
         header {
-            background: #282c34;
+            background: #004d40;
             color: #ffffff;
-            padding: 1rem 0;
             text-align: center;
+            padding: 1.5rem 0;
         }
 
         header h1 {
+            font-size: 2.5rem;
             margin: 0;
-            font-size: 2rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0;
+            font-style: italic;
         }
 
         nav {
             display: flex;
             justify-content: center;
-            background: #61dafb;
-            padding: 0.5rem 0;
+            background: #00796b;
+            padding: 0.75rem 0;
         }
 
         nav a {
             color: #ffffff;
             text-decoration: none;
-            margin: 0 1rem;
-            font-weight: bold;
+            margin: 0 1.5rem;
             font-size: 1rem;
         }
 
@@ -45,24 +50,34 @@
         }
 
         .content {
-            max-width: 800px;
+            max-width: 900px;
             margin: 2rem auto;
-            padding: 1rem;
+            padding: 2rem;
             background: #ffffff;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
 
         .content h2 {
-            margin-top: 0;
             font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #004d40;
+        }
+
+        .content p {
+            margin-bottom: 1rem;
+        }
+
+        .content ul {
+            list-style-type: square;
+            padding-left: 1.5rem;
         }
 
         footer {
+            background: #004d40;
+            color: #ffffff;
             text-align: center;
             padding: 1rem 0;
-            background: #282c34;
-            color: #ffffff;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -72,35 +87,75 @@
             margin: 0;
             font-size: 0.9rem;
         }
+
+        .code-block {
+            background: #f4f4f4;
+            padding: 1rem;
+            border-left: 4px solid #00796b;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.95rem;
+            margin: 1.5rem 0;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Minimalist Page</h1>
+        <h1>Open Source Phylogenetics</h1>
+        <p>Exploring Evolutionary Trees through Collaboration and Mathematics</p>
     </header>
 
     <nav>
-        <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#math">Mathematics</a>
+        <a href="#open-source">Open Source</a>
         <a href="#contact">Contact</a>
     </nav>
 
     <main class="content">
-        <h2>About This Page</h2>
-        <p>This is a simple, clean webpage inspired by minimalist design principles. Feel free to customize it as needed!</p>
+        <section id="about">
+            <h2>About Phylogenetics</h2>
+            <p>Phylogenetics is the study of evolutionary relationships among biological species based on shared ancestry. Using computational tools and mathematical models, researchers can reconstruct phylogenetic trees to trace the evolutionary history of life.</p>
+        </section>
 
-        <h2>How It Works</h2>
-        <p>The page is built with basic HTML and CSS, ensuring fast load times and easy maintenance. It uses:
+        <section id="math">
+            <h2>The Mathematics Behind Phylogenetics</h2>
+            <p>Phylogenetics heavily relies on mathematical concepts such as graph theory, probability, and algorithms. Key mathematical methods include:</p>
             <ul>
-                <li>A clean header and navigation bar.</li>
-                <li>A central content section with a card-like style.</li>
-                <li>A fixed footer for consistent branding.</li>
+                <li>Maximum Likelihood Estimation</li>
+                <li>Bayesian Inference</li>
+                <li>Parsimony Analysis</li>
             </ul>
-        </p>
+            <p>For example, consider a simple distance matrix used to calculate relationships:</p>
+            <div class="code-block">
+                A   B   C   D  
+                <br>  A  0   5   9  10 
+                <br>  B  5   0  10   7 
+                <br>  C  9  10   0   8 
+                <br>  D 10   7   8   0 
+            </div>
+        </section>
+
+        <section id="open-source">
+            <h2>Open Source Philosophy</h2>
+            <p>The open source community has greatly advanced phylogenetics by developing tools like:</p>
+            <ul>
+                <li><a href="https://github.com" target="_blank">GitHub Projects</a></li>
+                <li>MEGA (Molecular Evolutionary Genetics Analysis)</li>
+                <li>BioPython for computational biology</li>
+            </ul>
+            <p>These tools encourage collaboration and innovation in the scientific community.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you're interested in contributing to open source phylogenetics or learning more, feel free to reach out!</p>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <p>&copy; 2024 Open Source Phylogenetics. Made with Collaboration.</p>
     </footer>
 </body>
 </html>
+
