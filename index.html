@@ -7,25 +7,25 @@
     <title>My Minimalist Website</title>
     <style>
         body {
-            font-family: "Courier New", Courier, monospace;
+            font-family: "Yu Mincho", "Hiragino Mincho Pro", serif;
             line-height: 1.8;
             margin: 0;
             padding: 0;
-            background-color: #ffffff;
-            color: #000;
+            background-color: #fafafa;
+            color: #333;
         }
 
         header {
-            background-color: #e0e0e0;
+            background-color: #f4f4f4;
             padding: 20px 10px;
-            border-bottom: 1px solid #ccc;
+            border-bottom: 2px solid #ccc;
         }
 
         header h1 {
             text-align: center;
             margin: 0;
-            font-size: 2em;
-            color: #000;
+            font-size: 2.5em;
+            color: #222;
         }
 
         nav {
@@ -35,13 +35,13 @@
 
         nav a {
             text-decoration: none;
-            color: #000;
+            color: #555;
             margin: 0 15px;
             font-weight: bold;
         }
 
         nav a:hover {
-            text-decoration: underline;
+            color: #000;
         }
 
         main {
@@ -55,9 +55,9 @@
         }
 
         article h2 {
-            font-size: 1.8em;
+            font-size: 2em;
             margin-bottom: 10px;
-            color: #000;
+            color: #111;
         }
 
         article p {
@@ -65,7 +65,7 @@
         }
 
         pre {
-            background-color: #f4f4f4;
+            background-color: #f8f8f8;
             padding: 10px;
             border: 1px solid #ddd;
             overflow-x: auto;
@@ -75,38 +75,48 @@
         footer {
             text-align: center;
             padding: 20px 10px;
-            border-top: 1px solid #ccc;
+            border-top: 2px solid #ccc;
             font-size: 0.9em;
-            background-color: #e0e0e0;
+            background-color: #f4f4f4;
         }
 
         footer a {
             text-decoration: none;
-            color: #000;
+            color: #555;
             font-weight: bold;
         }
 
         footer a:hover {
-            text-decoration: underline;
+            color: #000;
         }
 
-        .japanese-touch {
-            font-family: "Yu Mincho", "Hiragino Mincho Pro", serif;
+        .japanese-accent {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 30px;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: #fff;
             border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        .japanese-touch h2 {
-            font-size: 1.6em;
-            color: #333;
+        .japanese-accent h2 {
+            font-size: 1.8em;
+            color: #222;
+            margin-bottom: 10px;
         }
 
-        .japanese-touch p {
-            font-size: 1em;
+        .japanese-accent p {
+            font-size: 1.1em;
             color: #555;
+        }
+
+        .japanese-accent::before {
+            content: "\2606"; /* Star symbol */
+            font-size: 2em;
+            color: #777;
+            display: block;
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -138,9 +148,9 @@ function greet(name) {
 console.log(greet("World"));</code></pre>
         </article>
 
-        <section class="japanese-touch">
-            <h2>日本の美しさ</h2>
-            <p>このウェブサイトはシンプルで美しいデザインを目指しています。日本文化のミニマリズムと調和の精神に触発されました。</p>
+        <section class="japanese-accent">
+            <h2>日本の美学</h2>
+            <p>このデザインは、日本のミニマリズムと調和の美しさからインスピレーションを得ています。</p>
         </section>
     </main>
 
