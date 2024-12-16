@@ -7,35 +7,37 @@
     <title>My Minimalist Website</title>
     <style>
         body {
-            font-family: "Arial", sans-serif;
-            line-height: 1.6;
+            font-family: "Courier New", Courier, monospace;
+            line-height: 1.8;
             margin: 0;
             padding: 0;
-            background-color: #fdfdfd;
-            color: #333;
+            background-color: #ffffff;
+            color: #000;
         }
 
         header {
-            background-color: #f4f4f4;
-            padding: 1em 0;
-            border-bottom: 1px solid #ddd;
+            background-color: #e0e0e0;
+            padding: 20px 10px;
+            border-bottom: 1px solid #ccc;
         }
 
         header h1 {
             text-align: center;
             margin: 0;
-            font-size: 1.8em;
+            font-size: 2em;
+            color: #000;
         }
 
         nav {
             text-align: center;
-            margin-top: 0.5em;
+            margin: 15px 0 0;
         }
 
         nav a {
             text-decoration: none;
-            color: #0077cc;
-            margin: 0 10px;
+            color: #000;
+            margin: 0 15px;
+            font-weight: bold;
         }
 
         nav a:hover {
@@ -43,36 +45,45 @@
         }
 
         main {
-            max-width: 800px;
-            margin: 2em auto;
-            padding: 0 1em;
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 0 15px;
         }
 
         article {
-            margin-bottom: 2em;
+            margin-bottom: 40px;
         }
 
         article h2 {
-            font-size: 1.5em;
-            margin-bottom: 0.5em;
-            color: #222;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #000;
         }
 
         article p {
-            margin: 0.5em 0;
+            margin: 10px 0;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+            font-size: 0.9em;
         }
 
         footer {
             text-align: center;
-            padding: 1em 0;
-            border-top: 1px solid #ddd;
+            padding: 20px 10px;
+            border-top: 1px solid #ccc;
             font-size: 0.9em;
-            background-color: #f4f4f4;
+            background-color: #e0e0e0;
         }
 
         footer a {
             text-decoration: none;
-            color: #0077cc;
+            color: #000;
+            font-weight: bold;
         }
 
         footer a:hover {
@@ -85,27 +96,32 @@
         <h1>My Minimalist Website</h1>
         <nav>
             <a href="#">Home</a>
-            <a href="#">About</a>
+            <a href="#">Projects</a>
             <a href="#">Blog</a>
-            <a href="#">Contact</a>
+            <a href="#">About</a>
         </nav>
     </header>
 
     <main>
         <article>
-            <h2>Welcome to My Website</h2>
-            <p>This is a simple, clean, and minimalistic website template inspired by Fabien Sanglard's design.</p>
-            <p>Use this space to share your projects, thoughts, and ideas with the world.</p>
+            <h2>Welcome to My Minimalist Website</h2>
+            <p>Welcome to a clean and simple site design inspired by Fabien Sanglard's work. This is a space for sharing knowledge, projects, and ideas.</p>
         </article>
 
         <article>
-            <h2>Another Blog Post</h2>
-            <p>Here's an example of a blog post. Keep your content engaging and concise for your readers.</p>
+            <h2>Latest Blog Post</h2>
+            <p>Stay tuned for updates on my latest projects and tutorials. Below is a sample of how code can be showcased:</p>
+            <pre><code>// Example of a simple JavaScript function
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+
+console.log(greet("World"));</code></pre>
         </article>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Minimalist Website. Made with simplicity in mind. <a href="#">Privacy Policy</a></p>
+        <p>&copy; 2024 My Minimalist Website. Designed for simplicity. <a href="#">Contact Me</a></p>
     </footer>
 </body>
 </html>
