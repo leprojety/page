@@ -3,84 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madame Butterfly: An Homage</title>
+    <title>Madame Butterfly</title>
     <style>
         body {
             margin: 0;
-            font-family: "Times New Roman", serif;
-            background-color: #f8f1e4;
-            color: #2c2c2c;
-            line-height: 1.6;
+            font-family: 'Georgia', serif;
+            color: #3c2f2f;
+            background-color: #f5f1e9;
         }
+
         header {
-            background: linear-gradient(135deg, #ff9a8b, #fecfef);
-            padding: 20px;
+            background: linear-gradient(to bottom, #d8b9c3, #f5f1e9);
+            padding: 20px 0;
             text-align: center;
-            color: white;
             font-size: 2.5em;
-            font-style: italic;
+            color: #4a2c2a;
+            letter-spacing: 2px;
         }
+
         nav {
-            background-color: #5a5a5a;
-            padding: 10px;
+            background-color: #6e3c3c;
+            padding: 10px 0;
+            text-align: center;
         }
+
         nav a {
-            color: white;
+            color: #f5f1e9;
             text-decoration: none;
             margin: 0 15px;
-            font-weight: bold;
+            font-size: 1.2em;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #ffffff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        .hero {
+            background: url('butterfly_garden.jpg') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #f5f1e9;
+            text-shadow: 2px 2px 4px #000;
         }
-        h1, h2, h3 {
-            color: #ba4a55;
+
+        .hero h1 {
+            font-size: 4em;
         }
-        footer {
+
+        section {
+            padding: 40px;
+        }
+
+        .about {
             text-align: center;
-            padding: 10px;
-            background-color: #5a5a5a;
-            color: white;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .about h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #6e3c3c;
+            color: #f5f1e9;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
 <body>
     <header>
-        Madame Butterfly: An Homage
+        Madame Butterfly
     </header>
+
     <nav>
-        <a href="#story">Story</a>
-        <a href="#composer">Composer</a>
-        <a href="#legacy">Legacy</a>
-        <a href="#contact">Contact</a>
+        <a href="#story">The Story</a>
+        <a href="#composer">The Composer</a>
+        <a href="#legacy">The Legacy</a>
     </nav>
-    <main>
-        <section id="story">
-            <h1>The Story</h1>
-            <p>Madame Butterfly tells the poignant tale of love and betrayal, set in the beautiful landscapes of Nagasaki, Japan. The story revolves around Cio-Cio-San, a young geisha who marries an American naval officer, only to face heartbreak and tragedy.</p>
-        </section>
-        <section id="composer">
-            <h2>About Giacomo Puccini</h2>
-            <p>Puccini, one of the greatest opera composers, brought his genius to Madame Butterfly with a rich score that captures the essence of its characters and setting.</p>
-        </section>
-        <section id="legacy">
-            <h2>The Legacy</h2>
-            <p>Madame Butterfly has captivated audiences worldwide with its emotional depth and exquisite music. It remains a cornerstone of the operatic repertoire.</p>
-        </section>
-        <section id="contact">
-            <h3>Contact</h3>
-            <p>If you would like to learn more about this project, feel free to reach out at <a href="mailto:info@madamebutterfly.com">info@madamebutterfly.com</a>.</p>
-        </section>
-    </main>
+
+    <div class="hero">
+        <h1>An Opera of Tragic Beauty</h1>
+    </div>
+
+    <section id="story" class="about">
+        <h2>The Story</h2>
+        <p>
+            "Madame Butterfly" is a tale of love and betrayal, set against the backdrop of Japan's serene landscapes and vibrant culture. The story revolves around Cio-Cio-san, a young Japanese geisha, whose unwavering devotion to an American naval officer leads her to a heartrending fate.
+        </p>
+    </section>
+
+    <section id="composer" class="about">
+        <h2>The Composer</h2>
+        <p>
+            Giacomo Puccini, one of the most celebrated opera composers, brought "Madame Butterfly" to life with his signature lush melodies and emotional depth. His music paints an evocative picture of love's passion and despair.
+        </p>
+    </section>
+
+    <section id="legacy" class="about">
+        <h2>The Legacy</h2>
+        <p>
+            Since its debut in 1904, "Madame Butterfly" has captured the hearts of audiences worldwide. Its themes of cultural collision and enduring love resonate deeply, making it one of the most performed operas of all time.
+        </p>
+    </section>
+
     <footer>
-        &copy; 2024 Madame Butterfly Project. All Rights Reserved.
+        <p>&copy; 2024 Tribute to Puccini's Masterpiece</p>
     </footer>
 </body>
 </html>
