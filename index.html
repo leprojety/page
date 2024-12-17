@@ -24,6 +24,20 @@
             padding: 40px 20px;
         }
 
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
         main {
             max-width: 800px;
             margin: 0 auto;
@@ -42,15 +56,6 @@
             margin: 10px 0;
         }
 
-        a {
-            color: #0077cc;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
         hr {
             border: none;
             border-top: 1px solid #ccc;
@@ -61,22 +66,28 @@
 <body>
     <header>
         <h1>Projet Y</h1>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#articles">Articles</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
     <main>
-        <h2>Projects</h2>
+        <h2 id="projects">Projects</h2>
         <p>A collection of my work and interests.</p>
         <hr>
 
-        <h2>Articles</h2>
+        <h2 id="articles">Articles</h2>
         <p>Thoughts and writings on various topics.</p>
         <hr>
 
-        <h2>About</h2>
+        <h2 id="about">About</h2>
         <p>Learn more about me.</p>
         <hr>
 
-        <h2>Contact</h2>
+        <h2 id="contact">Contact</h2>
         <p>Reach out via email or social media.</p>
     </main>
 </body>
