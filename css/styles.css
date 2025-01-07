@@ -1,17 +1,24 @@
 /* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400&display=swap');
+
 body {
-    font-family: "Georgia", serif;
+    font-family: "Fira Mono", monospace;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #282a2e; /* Single color background */
     color: #ffffff; /* Light text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 header {
