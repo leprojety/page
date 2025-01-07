@@ -1,0 +1,3 @@
+[submodule "collectivePage"]
+	path = collectivePage
+	url = https://github.com/leprojety/collectivePage.git
