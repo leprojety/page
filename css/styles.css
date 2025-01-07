@@ -4,8 +4,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #1d1f21; /* Similar dark background */
-    color: #c5c8c6; /* Light text color */
+    background-color: #282a2e; /* Single color background */
+    color: #ffffff; /* Light text color */
 }
 
 .container {
@@ -15,17 +15,15 @@ body {
 }
 
 header {
-    background: #282a2e; /* Darker header background */
+    background: #282a2e;
     color: #ffffff;
     padding-top: 10px;
     min-height: 70px;
-    border-bottom: #5f819d 3px solid; /* Subtle blue accent */
 }
 
 header a {
-    color: #81a2be; /* Light blue links */
+    color: #ffffff;
     text-decoration: none;
-    text-transform: uppercase;
     font-size: 16px;
 }
 
@@ -37,34 +35,24 @@ header ul {
 
 header li {
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 20px;
 }
 
 header h1 {
-    float: left;
-    margin-top: 0;
+    margin: 0;
     font-size: 24px;
     font-weight: normal;
 }
 
-header nav {
-    float: right;
-    margin-top: 10px;
-}
-
 main {
     padding: 20px 0;
-    background: #1d1f21; /* Match background */
-    margin-top: 20px;
 }
 
 footer {
-    background: #282a2e; /* Match header background */
-    color: #c5c8c6;
+    background: #282a2e;
+    color: #ffffff;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
-    border-top: #5f819d 3px solid; /* Subtle blue accent */
 }
 
 footer p {
@@ -72,19 +60,11 @@ footer p {
 }
 
 a {
-    color: #81a2be; /* Light blue links */
+    color: #ffffff;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-code {
-    font-family: "Courier New", Courier, monospace;
-    background: #373b41; /* Code block background */
-    color: #c5c8c6;
-    padding: 2px 4px;
-    border-radius: 3px;
 }
 
