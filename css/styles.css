@@ -44,23 +44,12 @@ header li {
 
 header h1 {
     margin: 0;
-    font-size: 36px; /* Increased font size for website name */
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: normal;
 }
 
 main {
     padding: 20px 0;
-}
-
-main .collaborations {
-    margin-top: 40px;
-    text-align: center;
-}
-
-main .collaborations h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
 }
 
 footer {
