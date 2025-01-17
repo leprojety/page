@@ -1,3 +1,6 @@
 [submodule "collectivePage"]
 	path = collectivePage
 	url = https://github.com/leprojety/collectivePage.git
+[submodule "surfPage"]
+	path = surfPage
+	url = https://github.com/leprojety/surfPage.git
