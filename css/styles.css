@@ -6,7 +6,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* #282a2 Single color background */
+    background-color: #F5F5F0; /* #282a2 Single color background */
     color: #333 ; /* #ffffff Light text color */
 }
 
@@ -16,15 +16,15 @@ body {
 }
 
 header {
-    background: #282a2e;
-    color: #ffffff;
+    background: #F5F5F0; /* #282a2e; */
+    color: #333 ; /*#ffffff; */
     text-align: center;
     padding-top: 10px;
     min-height: 70px;
 }
 
 header a {
-    color: #ffffff;
+    color: #333 /*#ffffff;*/
     text-decoration: none;
     font-size: 16px;
 }
@@ -53,8 +53,8 @@ main {
 }
 
 footer {
-    background: #282a2e;
-    color: #ffffff;
+    background: #F5F5F0 ; /*#282a2e;*/
+    color: #333 ; /*#ffffff;*/
     text-align: center;
     padding: 10px 0;
 }
@@ -64,7 +64,7 @@ footer p {
 }
 
 a {
-    color: #ffffff;
+    color: #333 ; /*#ffffff;*/
     text-decoration: none;
 }
 
