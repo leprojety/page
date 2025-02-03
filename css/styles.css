@@ -6,8 +6,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #282a2e; /* Single color background */
-    color: #ffffff; /* Light text color */
+    background-color: #f9f9f9; /* #282a2 Single color background */
+    color: #333 ; /* #ffffff Light text color */
 }
 
 .container {
