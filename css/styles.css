@@ -54,7 +54,7 @@ main {
 
 /* Style des blocs */
 .block {
-    width: 700px;
+    width: 100%
     margin: 0 auto;
     /*border: 2px solid black;*/
 }
