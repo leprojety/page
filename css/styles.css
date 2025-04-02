@@ -1,5 +1,5 @@
 /* Updated styles.css */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
 
 body {
     font-family: "Fira Mono", monospace;
@@ -70,16 +70,19 @@ main {
 
 .session-number {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700; /* Assurer le gras */
     color: #000;
 }
 
 .session-title {
     font-size: 18px;
-    font-weight: bold;
-    font: bold;
+    font-weight: 700; /* Assurer le gras */
     color: #222;
-    margin: 0; /* Supprime l'espace supplémentaire */
+    margin: 0;
+}
+
+strong {
+    font-weight: 700; /* Assurer que le texte en <strong> est bien en gras */
 }
 
 .image-content {
