@@ -52,15 +52,26 @@ main {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px; /* Augmente l'espace entre les sessions */
+    border-bottom: 1px solid #ccc; /* Séparation claire des sessions */
+    padding-bottom: 20px;
 }
 
 .text-content {
     flex: 1;
+    max-width: 55%; /* Assure un bon équilibre entre texte et image */
+}
+
+.image-content {
+    flex: 1;
+    max-width: 40%; /* Assure que l'image ne dépasse pas */
+    display: flex;
+    justify-content: flex-end;
 }
 
 .image-content img {
-    max-width: 40%;
+    max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 5px; /* Légère bordure arrondie pour un style plus moderne */
 }
