@@ -68,7 +68,7 @@ main {
     height: auto;      /* Garde les proportions */
     display: block;    /* Évite l'espace blanc sous l'image */
     float: right;
-    position: absolute;
+    /*position: absolute;*/
 
 }
 
