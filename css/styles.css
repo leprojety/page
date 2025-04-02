@@ -67,6 +67,7 @@ main {
     max-width: 40%;  /* Empêche l'image de dépasser le div */
     height: auto;      /* Garde les proportions */
     display: block;    /* Évite l'espace blanc sous l'image */
+    float: right;
 
 }
 
