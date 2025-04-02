@@ -52,6 +52,20 @@ main {
     padding: 20px 0;
 }
 
+/* Style des blocs */
+.block {
+    width: 300px;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Images */
+.block img {
+    width: 100%;
+    height: auto;
+}
+
 footer {
     background: #F5F5F0 ; /*#282a2e;*/
     color: #333 ; /*#ffffff;*/
