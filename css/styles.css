@@ -81,6 +81,12 @@ main {
     margin: 0;
 }
 
+.abstract-title {
+    font-size: 16px;
+    font-weight: 700; /* Assurer le gras */
+    color: #444;
+}
+
 strong {
     font-weight: 700; /* Assurer que le texte en <strong> est bien en gras */
 }
