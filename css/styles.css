@@ -54,7 +54,6 @@ main {
 
 /* Style des blocs */
 .block {
-    display: flex;
     width: 100%;
     margin: 0 auto;
     /*border: 2px solid black;*/
@@ -68,7 +67,6 @@ main {
     max-width: 40%;  /* Empêche l'image de dépasser le div */
     height: auto;      /* Garde les proportions */
     display: block;    /* Évite l'espace blanc sous l'image */
-    margin: 0 auto;    /* Centre l'image horizontalement */
 
 }
 
