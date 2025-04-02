@@ -61,10 +61,7 @@ main {
 }
 
 /* Style du texte */
-.block p {
-    flex: 1;  /* Le texte prend l’espace restant */
-    margin-right: 2%;
-}
+
 
 /* Images */
 .block img {
