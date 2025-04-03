@@ -97,7 +97,8 @@ strong {
     flex: 1;
     max-width: 40%;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .image-content img {
@@ -105,6 +106,14 @@ strong {
     height: auto;
     display: block;
     border-radius: 5px;
+}
+
+.image-description {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    margin-top: 5px;
+    max-width: 100%;
 }
 
 /* Responsive Design */
@@ -125,6 +134,7 @@ strong {
     }
     .image-content {
         justify-content: flex-start;
+        align-items: flex-start;
     }
 }
 
