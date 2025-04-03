@@ -118,6 +118,25 @@ strong {
     padding-left: 0; /* Aligné avec le bord gauche de l'image */
 }
 
+/* Bio Section Styles */
+.bio-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.bio-section img {
+    width: 80px; /* Adjust as needed */
+    height: 80px;
+    border-radius: 50%;
+}
+
+.bio-text {
+    font-size: 14px;
+    color: #444;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .container {
