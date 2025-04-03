@@ -115,6 +115,7 @@ strong {
     margin-top: 5px;
     max-width: 100%;
     align-self: flex-start;
+    padding-left: 0; /* Aligné avec le bord gauche de l'image */
 }
 
 /* Responsive Design */
