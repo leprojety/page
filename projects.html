@@ -1,47 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projects page for the Minimalist Website">
-    <title>projet.y</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projects page for the Minimalist Website" />
+  <title>projet.y</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h2><a href="index.html"><img src="images/P.Y_Logo_noir.png" alt="Texte alternatif" width="200"></a></h2>
-            <nav>
-                <ul>
-                    <!-- <li><a href="index.html">Home</a></li> -->
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Collaborations</a></li>
-                    <li><a href="seminars.html">Seminars</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <header>
+    <div class="container">
+      <h2>
+        <a href="index.html">
+          <img src="images/P.Y_Logo_noir.png" alt="Texte alternatif" width="200" />
+        </a>
+      </h2>
+      <nav>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Collaborations</a></li>
+          <li><a href="seminars.html">Seminars</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <div class="container">
-            <p>
-                <h2>Sorbonne university - Intel </h2>
-                <span>This collaboration focuses on inter-agent communication in collaborative task solving contexts. The main objective is to model and analyse the mechanisms by which artificial agents can acquire a shared representation of their environment and their task, in order to work together more effectively and thus optimise collective performance.</span>
-                <span><a href="collectivePage/index.html" style="text-decoration: underline;">More here</a></span>
-            </p>
-            <p>
-                <h2>Surf - Intel</h2> 
-                <span>Intel and Surf are collaborating to enhance AI for scientific applications by optimizing, porting, and running AI applications on Intel advanced hardware and software. This partnership focuses on improving performance, ensuring seamless integration, and sharing knowledge to accelerate AI-driven scientific discoveries.
-                <span><a href="surfPage/index.html" style="text-decoration: underline;">More here</a></span>
-            </p>
-        </div>
-    </main>
+  <main>
+    <div class="container">
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025.</p>
+      <!-- Block 1: Sorbonne - Intel -->
+      <div class="block session">
+        <div class="text-content">
+          <p class="session-title">Sorbonne University – Intel</p>
+          <p>This collaboration focuses on inter-agent communication in collaborative task-solving contexts. The main objective is to model and analyse the mechanisms by which artificial agents can acquire a shared representation of their environment and their task, in order to work together more effectively and thus optimise collective performance.</p>
+          <p><a href="collectivePage/index.html" style="text-decoration: underline;">More here</a></p>
         </div>
-    </footer>
+        <div class="image-content">
+          <img src="images/sorbonne.jpg" alt="Sorbonne University" />
+          <p class="image-description">Symbol of academic rigor and AI research at Sorbonne.</p>
+        </div>
+      </div>
+
+      <!-- Block 2: Surf - Intel -->
+      <div class="block session">
+        <div class="text-content">
+          <p class="session-title">SURF – Intel</p>
+          <p>Intel and SURF are collaborating to enhance AI for scientific applications by optimizing, porting, and running AI applications on Intel’s advanced hardware and software. This partnership focuses on improving performance, ensuring seamless integration, and sharing knowledge to accelerate AI-driven scientific discoveries.</p>
+          <p><a href="surfPage/index.html" style="text-decoration: underline;">More here</a></p>
+        </div>
+        <div class="image-content">
+          <img src="images/surf.jpg" alt="SURF Research Collaboration" />
+          <p class="image-description">SURF’s infrastructure fuels AI for scientific breakthroughs.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025.</p>
+    </div>
+  </footer>
 </body>
 </html>
